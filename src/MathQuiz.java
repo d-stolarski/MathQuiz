@@ -9,12 +9,7 @@ public class MathQuiz {
         boolean answer;
         System.out.println("Jaki jest wynik mnożenia 3*5 ?");
         score = sc.nextInt();
-        if(score == 15) {
-            answer = true;
-        } else {
-            answer = false;
-        }
-        return answer;
+        return score == 15;
     }
 
     public boolean question2() {
@@ -22,12 +17,7 @@ public class MathQuiz {
         boolean answer;
         System.out.println("Jakie jest pole kwadratu o boku 12 ?");
         score = sc.nextInt();
-        if(score == 144) {
-            answer = true;
-        } else {
-            answer = false;
-        }
-        return answer;
+        return score == 144;
     }
 
     public boolean question3() {
@@ -35,11 +25,6 @@ public class MathQuiz {
         boolean answer;
         System.out.println("Jaki jest pierwiastek kwadratowy z liczby 15129 ?");
         score = sc.nextInt();
-        if(score == 123) {
-            answer = true;
-        } else {
-            answer = false;
-        }
-        return answer;
+        return score == 123;
     }
 }

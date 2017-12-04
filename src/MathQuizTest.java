@@ -1,6 +1,6 @@
 public class MathQuizTest {
     public static void main(String[] args) {
-        int result = 0;
+
         MathQuiz mq = new MathQuiz();
 
         boolean q1 = mq.question1();
@@ -11,13 +11,14 @@ public class MathQuizTest {
         System.out.println("Pytanie 2, odpowiedź poprawna?: " + q2);
         System.out.println("Pytanie 3, odpowiedź poprawna?: " + q3);
 
-        if(q1 == true) {
+        int result = 0;
+        if(q1) {
             result++;
         }
-        if(q2 == true) {
+        if(q2) {
             result++;
         }
-        if(q3 == true) {
+        if(q3) {
             result++;
         }
 
